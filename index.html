@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ihor Pidhrabia — Web Developer for US & EU businesses | High-Converting Websites</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230a0a0c'/%3E%3Ctext x='48' y='54' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif' font-weight='800' font-size='50' fill='%23f2f2f2' text-anchor='middle' dominant-baseline='central' letter-spacing='-3'%3EIP%3C/text%3E%3Cpath d='M75 22 L88 22 L88 35' stroke='%23c8ff00' stroke-width='5' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E">
+<meta name="description" content="Freelance web developer building high-converting landing pages, business websites & e-commerce stores for founders in the US, UK & EU. Fixed quotes. Fast delivery. Conversion-first design.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+<!-- Calendly CSS & JS -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="wrap nav-inner">
+    <a href="#" class="logo">
+      <span class="logo-mark">I</span>
+      <span>Ihor Pidhrabia</span>
+    </a>
+    <div class="nav-right">
+      <div class="nav-links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#process">Process</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact" class="btn-nav">Let's talk</a>
+      </div>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="orb orb-1" data-parallax="0.03"></div>
+  <div class="orb orb-2" data-parallax="-0.02"></div>
+  <div class="orb orb-3" data-parallax="0.04"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-cursor-glow" id="heroGlow"></div>
+  <div class="wrap">
+    <div class="badge reveal"><span class="dot"></span><span>Available for new projects — 2 slots left in March</span></div>
+    <h1 class="hero-title reveal reveal-delay-1">
+      I build websites<br>
+      that turn clicks<br>
+      into <em>customers</em>
+    </h1>
+    <p class="hero-sub reveal reveal-delay-2">
+      Freelance web developer with 5+ years shipping high-converting sites for founders and small teams. <strong>Landing pages, business sites, and e-commerce stores</strong> — built fast, built right, built to make you money.
+    </p>
+    <div class="hero-cta reveal reveal-delay-3">
+      <a href="#contact" class="btn btn-primary">
+        Start a project
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="#work" class="btn btn-ghost">See my work</a>
+    </div>
+    <div class="stats reveal">
+      <div>
+        <div class="stat-num" data-count="60">0<span>+</span></div>
+        <div class="stat-label">websites shipped</div>
+      </div>
+      <div>
+        <div class="stat-num" style="display: flex; align-items: baseline; gap: 2px;">
+          <span data-count="4" style="color: var(--text); font-size: inherit;">0</span><span style="color: var(--text); font-size: inherit;">.</span><span data-count="9" style="color: var(--text); font-size: inherit;">0</span><span style="color: var(--accent); font-size: 0.6em;">★</span>
+        </div>
+        <div class="stat-label">average rating</div>
+      </div>
+      <div>
+        <div class="stat-num" data-count="90">0<span>%</span></div>
+        <div class="stat-label">repeat & referral</div>
+      </div>
+    </div>
+    <div class="trust-strip reveal">
+      <span>US, UK & EU clients</span>
+      <span>Fixed quotes</span>
+      <span>Stripe / Wire / Wise</span>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee-track" id="marquee">
+    <div class="marquee-item">HTML / CSS / JS</div>
+    <div class="marquee-item">React</div>
+    <div class="marquee-item">Next.js</div>
+    <div class="marquee-item">Tailwind</div>
+    <div class="marquee-item">Figma</div>
+    <div class="marquee-item">Webflow</div>
+    <div class="marquee-item">WordPress</div>
+    <div class="marquee-item">UI / UX Design</div>
+    <div class="marquee-item">SEO</div>
+    <div class="marquee-item">Animations</div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Services</div>
+      <h2>What I <em>deliver</em></h2>
+      <p class="section-desc">Fixed quotes. Clear timelines. Websites that pay for themselves. Here's how I can help:</p>
+    </div>
+    <div class="services-grid">
+      <div class="service reveal">
+        <div class="service-num">— 01</div>
+        <h3><span>Landing Pages</span> <span class="service-price">from $900</span></h3>
+        <p>Single-page sites engineered to sell. Every headline, button, and scroll animation is designed to turn visitors into leads and customers.</p>
+        <div class="service-tags">
+          <span class="tag">3-5 days</span>
+          <span class="tag">Responsive</span>
+          <span class="tag">SEO-ready</span>
+          <span class="tag">Analytics</span>
+        </div>
+      </div>
+      <div class="service reveal reveal-delay-1">
+        <div class="service-num">— 02</div>
+        <h3><span>Business Websites</span> <span class="service-price">from $2,000</span></h3>
+        <p>Multi-page sites for growing companies — service pages, blogs, and an easy CMS so you can update content without a developer.</p>
+        <div class="service-tags">
+          <span class="tag">7-14 days</span>
+          <span class="tag">CMS</span>
+          <span class="tag">Blog</span>
+          <span class="tag">Speed-optimized</span>
+        </div>
+      </div>
+      <div class="service reveal">
+        <div class="service-num">— 03</div>
+        <h3><span>E-commerce Stores</span> <span class="service-price">from $3,000</span></h3>
+        <p>Complete online stores with product catalogs, cart, checkout, and shipping. Configured and ready to run ads from day one.</p>
+        <div class="service-tags">
+          <span class="tag">14-21 days</span>
+          <span class="tag">Payments</span>
+          <span class="tag">User accounts</span>
+          <span class="tag">CRM</span>
+        </div>
+      </div>
+      <div class="service reveal reveal-delay-1">
+        <div class="service-num">— 04</div>
+        <h3><span>Web Design</span> <span class="service-price">from $1,200</span></h3>
+        <p>High-fidelity UI/UX design in Figma. Prototypes, wireframes, and a full design system — ready to hand off to any dev team.</p>
+        <div class="service-tags">
+          <span class="tag">3-6 days</span>
+          <span class="tag">Figma</span>
+          <span class="tag">Prototypes</span>
+          <span class="tag">Design system</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY ME -->
+<section class="why">
+  <div class="wrap">
+    <div class="why-grid">
+      <div class="why-item reveal">
+        <div class="why-icon">⚡</div>
+        <h3>Fast delivery</h3>
+        <p>Most sites launched in 5-7 days. No endless back-and-forth.</p>
+      </div>
+      <div class="why-item reveal reveal-delay-1">
+        <div class="why-icon">🎯</div>
+        <h3>Conversion-first</h3>
+        <p>Design decisions backed by data — not opinions.</p>
+      </div>
+      <div class="why-item reveal reveal-delay-2">
+        <div class="why-icon">🔧</div>
+        <h3>Clean code</h3>
+        <p>Maintainable, scalable, SEO-ready. Zero technical debt.</p>
+      </div>
+      <div class="why-item reveal reveal-delay-3">
+        <div class="why-icon">💬</div>
+        <h3>Fast replies</h3>
+        <p>Same-day responses. 30 days of free tweaks after launch.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Portfolio</div>
+      <h2>Recent <em>work</em></h2>
+      <p class="section-desc">Selected projects from the past two years. More case studies available on request.</p>
+    </div>
+
+    <div class="work-grid">
+
+      <a href="https://pidhrabia.github.io/dental/" target="_blank" rel="noopener noreferrer" class="project reveal">
+        <div class="project-visual">
+          <img src="projects/projects%20img/dental.png" alt="Solace Dental Studio website preview">
+        </div>
+        <div class="project-info">
+          <div>
+            <h3>Solace Dental Studio</h3>
+            <p>Landing page · dental services + appointment booking</p>
+          </div>
+          <div class="project-arrow">
+            <svg width="18" height="18" viewBox="0 0 16 16" fill="none"><path d="M3 13L13 3M13 3H5M13 3v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://pidhrabia.github.io/baker/" target="_blank" rel="noopener noreferrer" class="project reveal reveal-delay-1">
+        <div class="project-visual">
+          <img src="projects/projects%20img/baker.png" alt="Flour & Hearth Artisan Bakery website preview">
+        </div>
+        <div class="project-info">
+          <div>
+            <h3>Flour & Hearth Artisan Bakery & Cake Lab</h3>
+            <p>Landing page · artisan bakery + custom cake showcase</p>
+          </div>
+          <div class="project-arrow">
+            <svg width="18" height="18" viewBox="0 0 16 16" fill="none"><path d="M3 13L13 3M13 3H5M13 3v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://pidhrabia.github.io/detailing/" target="_blank" rel="noopener noreferrer" class="project reveal">
+        <div class="project-visual">
+          <img src="projects/projects%20img/detailing.png" alt="APEX Elite Protection website preview">
+        </div>
+        <div class="project-info">
+          <div>
+            <h3>APEX. Elite Protection</h3>
+            <p>Landing page · premium detailing services + lead generation</p>
+          </div>
+          <div class="project-arrow">
+            <svg width="18" height="18" viewBox="0 0 16 16" fill="none"><path d="M3 13L13 3M13 3H5M13 3v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://pidhrabia.github.io/lumen/" target="_blank" rel="noopener noreferrer" class="project reveal reveal-delay-1">
+        <div class="project-visual">
+          <img src="projects/projects%20img/lumen.png" alt="Lumen interior design website preview">
+        </div>
+        <div class="project-info">
+          <div>
+            <h3>Lumen.</h3>
+            <p>Landing page · interior design showcase + consultation form</p>
+          </div>
+          <div class="project-arrow">
+            <svg width="18" height="18" viewBox="0 0 16 16" fill="none"><path d="M3 13L13 3M13 3H5M13 3v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" style="border-top:1px solid var(--border)">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">How it works</div>
+      <h2>A <em>simple</em> process</h2>
+      <p class="section-desc">No agency overhead. No confusing jargon. Just four clear steps from idea to launch.</p>
+    </div>
+    <div class="process-grid">
+      <div class="step reveal">
+        <div class="step-num">01</div>
+        <h3>Kickoff call</h3>
+        <p>30-min intro call. We align on goals, audience, and success metrics. You get a fixed quote and timeline.</p>
+      </div>
+      <div class="step reveal reveal-delay-1">
+        <div class="step-num">02</div>
+        <h3>Design</h3>
+        <p>Wireframes and high-fidelity mockups in Figma. You approve before a single line of code is written.</p>
+      </div>
+      <div class="step reveal reveal-delay-2">
+        <div class="step-num">03</div>
+        <h3>Build</h3>
+        <p>Pixel-perfect development, animations, CMS setup, and QA. Weekly progress updates in your inbox.</p>
+      </div>
+      <div class="step reveal reveal-delay-3">
+        <div class="step-num">04</div>
+        <h3>Launch</h3>
+        <p>Cross-browser testing, performance optimization, and a live handoff call. Plus 30 days of free tweaks.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" style="border-top:1px solid var(--border)">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Reviews</div>
+      <h2>What clients <em>say</em></h2>
+    </div>
+    <div class="reviews-grid">
+      <div class="review reveal">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Got my landing page in 5 days. Conversion jumped from 1.2% to 3.4% — it paid for itself in the first week. Easily the best $900 I've spent on my business."</p>
+        <div class="review-author">
+          <div class="avatar" style="--c1:#7c3aed;--c2:#ec4899">SM</div>
+          <div><strong>Sarah Mitchell</strong><span>Peak Fitness · Austin, TX</span></div>
+        </div>
+      </div>
+      <div class="review reveal reveal-delay-1">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Cleanest freelance experience I've ever had. Clear scope, on-time delivery, zero drama. The site loads in under 2 seconds and looks like a $10k project."</p>
+        <div class="review-author">
+          <div class="avatar" style="--c1:#06b6d4;--c2:#3b82f6">JR</div>
+          <div><strong>Jake Rodriguez</strong><span>SaaS Founder · San Francisco, CA</span></div>
+        </div>
+      </div>
+      <div class="review reveal reveal-delay-2">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"He rebuilt our store from scratch and doubled mobile conversions. Professional, responsive, and actually understands business — not just code."</p>
+        <div class="review-author">
+          <div class="avatar" style="--c1:#f59e0b;--c2:#ef4444">EC</div>
+          <div><strong>Emily Chen</strong><span>E-commerce Brand · London, UK</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="contact-inner">
+      
+      <div class="contact-info reveal">
+        <div class="eyebrow">Contact</div>
+        <h2>Ready to<br>grow your<br><em>business?</em></h2>
+        <p>Choose the option that works best for you. Book a call directly on my calendar, or send me a message.</p>
+        
+        <div class="calendly-box">
+          <h3>Option 1: Let's talk</h3>
+          <p>Book a free 30-minute strategy call. We'll discuss your project, goals, and see if we're a good fit.</p>
+          <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pidhrabia/30min'});return false;" class="calendly-btn">
+            Book a 30-min call
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+          </button>
+          <div class="contact-pills" style="margin-top: 20px; margin-bottom: 0;">
+            <span class="contact-pill">☕ Free call</span>
+            <span class="contact-pill">🔒 No pitch</span>
+            <span class="contact-pill">🛡 Fixed quote</span>
+          </div>
+        </div>
+
+        <p style="font-size: 14px; font-weight: 600; color: var(--text);">Or reach out directly:</p>
+        <div class="contact-links">
+          <a href="https://t.me/pidhrabia" class="contact-link" target="_blank" rel="noopener">
+            <div class="contact-link-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg>
+            </div>
+            <div><strong>Telegram</strong><span>@i_h_o_r_r_r</span></div>
+          </a>
+          <a href="mailto:pidhrabia@gmail.com" class="contact-link">
+            <div class="contact-link-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+            </div>
+            <div><strong>Email</strong><span>pidhrabia@gmail.com</span></div>
+          </a>
+        </div>
+      </div>
+      
+    <!-- FORM -->
+      <form class="reveal reveal-delay-1" id="contactForm" novalidate>
+        <div class="form-title">Option 2: Send a message</div>
+        <!-- 🛡️ АНТИ-СПАМ ПАСТКА (Honeypot) - Люди це не бачать, боти заповнюють -->
+        <div style="position: absolute; left: -9999px; opacity: 0; pointer-events: none;" aria-hidden="true">
+          <label for="website_url">Leave this field blank if you are human</label>
+          <input type="text" id="website_url" name="website_url" tabindex="-1" autocomplete="off">
+        </div>
+        <p style="color: var(--muted); font-size: 14px; margin-bottom: 10px;">Fill out the form below and I'll reply within 2 business hours.</p>
+        
+        <div class="field">
+          <label for="name">Your name <span style="color: var(--accent);">*</span></label>
+          <input type="text" id="name" name="name" placeholder="What should I call you?">
+          <span class="err-msg">Please enter your name (at least 2 characters).</span>
+        </div>
+        
+        <div class="field">
+          <label for="contact">Email or Telegram <span style="color: var(--accent);">*</span></label>
+          <input type="text" id="contact" name="contact" placeholder="Where can I reach you?">
+          <span class="err-msg">Please provide a valid email (name@domain.com) or Telegram (@username).</span>
+        </div>
+        
+        <div class="field">
+          <label for="message">What are you building? <span style="color: var(--accent);">*</span></label>
+          <textarea id="message" name="message" placeholder="Project type, timeline, budget — anything helps."></textarea>
+          <span class="err-msg">Please tell me a bit about your project (at least 10 characters).</span>
+        </div>
+
+        <button type="submit" class="btn btn-primary" id="submitBtn">
+          <span id="btnText">Send message</span>
+          <svg id="btnIcon" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+
+        <div class="form-msg" id="formMsg"></div>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="footer-cta reveal">
+      <a href="#contact">
+        <span>Ready to <em>launch</em>?</span>
+      </a>
+    </div>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="logo-mark">I</span>
+        <span>Ihor Pidhrabia</span>
+      </div>
+      <div class="socials">
+        <a href="https://t.me/pidhrabia" class="social" aria-label="Telegram" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg>
+        </a>
+        <a href="mailto:pidhrabia@gmail.com" class="social" aria-label="Email">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+        </a>
+        <a href="https://instagram.com/pidhrabia" class="social" aria-label="Instagram" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+        </a>
+        <a href="https://facebook.com/pidhrabia" class="social" aria-label="Facebook" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.5-3.89 3.78-3.89 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.45 2.89h-2.33v6.99A10 10 0 0 0 22 12z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Ihor Pidhrabia · Web Development</span>
+      <span>Made with ♥ in Ukraine · Partnering worldwide</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
